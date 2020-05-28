@@ -1,0 +1,45 @@
+@import url("navbar.css");
+p {
+    margin-top: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+body {
+    background-color: var(--bg-secondary);
+}
+
+body {
+    color: black;
+    background-color: var(--bg-secondary);
+}
+
+
+/*rem is relative to the root pixel size*/
+
+main {
+    margin-left: 5rem;
+    background-color: var(--bg-secondary);
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+
+@media only screen and (max-width:600px) {
+    main {
+        margin-left: 0rem;
+    }
+}

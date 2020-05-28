@@ -1,0 +1,182 @@
+/*
+
+
+*/
+
+@import url("style.css");
+.product-control input[type="submit"] {
+    border-radius: 1em;
+    width: 75%;
+    height: 7.5vh;
+    background-color: var(--neon);
+    font-weight: bold;
+    margin-top: 2vh;
+}
+
+.product-control input[type="text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--neon);
+    width: 75%;
+    height: 7.5vh;
+    border-radius: 1em;
+    outline: none;
+    color: var(--neon);
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.product-control a {
+    display: block;
+    padding-top: 2vh;
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.add-product {
+    padding: 1em;
+    background: var(--bg-primary);
+    border-radius: 2em;
+    text-align: center;
+    flex: 1;
+    margin: 2%;
+    margin-left: 8em;
+}
+
+.update-product {
+    padding: 1em;
+    background: var(--bg-primary);
+    border-radius: 2em;
+    text-align: center;
+    flex: 1;
+    margin-left: 8em;
+}
+
+.manage-product {
+    padding: 1em;
+    background: var(--bg-primary);
+    border-radius: 2em;
+    text-align: center;
+    flex: 3;
+    margin: 2%;
+}
+
+.title {
+    color: var(--text-primary);
+    text-transform: uppercase;
+    margin-bottom: 4vh;
+}
+
+.admin {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+textarea {
+    padding: 4vh 0;
+    border: 2px solid var(--neon);
+    font-weight: bold;
+    background: none;
+    border-radius: 1em;
+    color: var(--neon);
+    text-align: center;
+    width: 75%;
+}
+
+.product-text {
+    color: var(--text-primary);
+    margin: 0em 2em;
+}
+
+table,
+th,
+td {
+    text-align: center;
+}
+
+.manage-product {
+    align-items: center;
+}
+
+.product-list {
+    width: 100%;
+}
+
+.product-id {
+    width: 10%;
+}
+
+.product-delete-btn {
+    color: red;
+}
+
+.product-update-btn {
+    color: greenyellow;
+}
+
+.product-description {
+    display: none;
+}
+
+.delete-btn {
+    background-color: red;
+    padding: 1.5em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.update-btn {
+    background-color: greenyellow;
+    padding: 1.5em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.table {
+    align-items: center;
+}
+
+.update_product_err,
+.err {
+    color: red;
+}
+
+.table,
+.orders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rect {
+    background-color: var(--bg-primary);
+    padding: 2em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+@media only screen and (max-width:800px) {
+    .admin {
+        flex-direction: column;
+        align-items: center;
+    }
+    .update-product,
+    .add-product {
+        width: 80%;
+        margin: 2em 0em;
+        flex: 1;
+    }
+    .manage-product {
+        width: 80%;
+        margin: 2em 0em;
+        flex: 1;
+    }
+    .product-price {
+        display: none;
+    }
+}

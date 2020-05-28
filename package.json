@@ -1,0 +1,25 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "Power Player an ecommerce website that focuses on convinience",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "GerardoGalan97",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-handlebars-sections": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "uuid": "^8.0.0"
+  }
+}

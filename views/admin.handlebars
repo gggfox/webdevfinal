@@ -1,0 +1,58 @@
+<head>
+        <link rel="stylesheet" type="text/css" href="./css/admin.css">
+</head>
+<div class="upt">
+<section id="updt-dashboard"class="admin-update">
+
+</section>
+</div>
+
+<section class="admin">
+
+    <div class="add-product">
+        <form action="" class="product-control">
+            <h1 class="title">AGREGAR PRODUCTO</h1>
+            <input id="add_product_name"type="text" name="" placeholder="nombre del producto">
+            <input id="add_product_price"type="text" name="" placeholder="precio del producto">
+            <textarea id="add_product_description"name="" id="description" cols="30" rows="10" placeholder="descripcion el producto"> </textarea>
+            <span id="add_product_err" class="err"></span>
+            <input id="add_product"type="submit" name="" value="Añadir">
+        </form>
+    </div>
+
+    <div class="manage-product">
+            <h1 class="title">MANEJO DE INVENTARIO</h1>
+            <div class="table">
+                <table class="product-list">
+                    <tr>
+                        <th class="product-text product-id">Id</th>
+                        <th class="product-text product-name">Nombre </th>
+                        <th class="product-text product-price">Precio </th>
+                        <th class="product-update-btn">Actualizar</th>
+                        <th class="product-delete-btn">Eliminar</th>
+                    </tr>
+
+                </table>
+            </div>
+    </div>
+
+</section>
+
+<section class="orders">
+
+
+    <div class="table">
+        <div class="rect">
+        <h1 class="title">PEDIDOS</h1>
+        <table id="admin-order-list"></table>
+        </div>
+
+   
+</div>
+
+
+
+ 
+
+</section>
+<script src="js/admin.js"></script>

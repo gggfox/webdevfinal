@@ -1,0 +1,139 @@
+@import url("style.css");
+.shop-card {
+    width: 200px;
+    background: var(--bg-primary);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    padding: 2em;
+    margin: 0em 1em 2em 1em;
+}
+
+.shop-card .title {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: var(--text-primary);
+    margin: 5px 0px;
+}
+
+.shop-card .desc {
+    font-size: 17px;
+    opacity: 0.8;
+    margin-bottom: 3px;
+    color: var(--text-secondary);
+}
+
+.shop-card .price {
+    color: var(--text-secondary);
+    padding-bottom: 5px;
+}
+
+.shop-card figure {
+    overflow: hidden;
+    outline: none;
+}
+
+.shop-card figure img {
+    width: 100%;
+    background-color: var(--bg-primary);
+}
+
+.shop-card .cta {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-card .cta::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shop-card .btn {
+    z-index: 1;
+    display: block;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px 9px 12px 9px;
+    cursor: pointer;
+    background-color: var(--neon);
+    box-shadow: 0 0 5px var(--neon-shadow);
+    box-shadow: 0 0 7px var(--neon);
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    padding: 10px 10px 0px 10px;
+}
+
+.block {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* padding: 1em 30% 0em 30%; */
+}
+
+.search-bar {
+    background-color: var(--bg-primary);
+    padding: 1.2em 0em;
+    border-radius: 0.7em;
+    margin: 0em 2em 2em 2em;
+    width: 80%
+}
+
+.search-box {
+    padding: 0.5em 2.5em 0.5em 1.5em;
+    border-radius: 1em;
+    width: 70%;
+}
+
+.search-btn {
+    padding: 0.5em 1em;
+    z-index: 1;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: var(--neon);
+    box-shadow: 0 0 5px var(--neon-shadow);
+    box-shadow: 0 0 7px var(--neon);
+    height: auto;
+    border-radius: 5px;
+}
+
+.product_catalog {
+    display: flex;
+    flex-direction: row;
+    order: 4;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.top-space {
+    padding: 2vh 0vh;
+}
+
+@media only screen and (max-width:800px) {
+    .search-box {
+        border-radius: 0.5em;
+        width: 50%;
+    }
+    .search-bar {
+        width: 100%;
+    }
+    body {
+        margin: 0;
+    }
+}
